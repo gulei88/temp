@@ -1,0 +1,66 @@
+package temp;
+
+import java.awt.GridLayout;
+import java.awt.event.KeyEvent;
+import java.awt.event.KeyListener;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JOptionPane;
+
+public class temp extends JFrame {
+	public temp() {
+		getContentPane().setLayout(new GridLayout(5, 5));
+		
+		JButton btnNewButton = new JButton("New button");
+		getContentPane().add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("New button");
+		getContentPane().add(btnNewButton_1);
+		
+		JButton btnNewButton_2 = new JButton("New button");
+		getContentPane().add(btnNewButton_2);
+		
+		JButton btnNewButton_3 = new JButton("New button");
+		getContentPane().add(btnNewButton_3);
+		
+		JButton btnNewButton_5 = new JButton("New button");
+		getContentPane().add(btnNewButton_5);
+		
+		JButton btnNewButton_4 = new JButton("New button");
+		getContentPane().add(btnNewButton_4);
+		this.addKeyListener(new KeyListener() {
+			
+			@Override
+			public void keyTyped(KeyEvent e) {
+				// TODO Auto-generated method stub
+				if (e.getKeyChar()=='\r') {
+					JOptionPane.showMessageDialog(this, "\r");
+				}
+			}
+			
+			@Override
+			public void keyReleased(KeyEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+			
+			@Override
+			public void keyPressed(KeyEvent e) {
+				// TODO Auto-generated method stub
+				
+			}
+		});
+	}
+
+//	public static void main(String[] args) {
+//		System.out.println(JOptionPane.YES_NO_CANCEL_OPTION);
+//		System.out.println(JOptionPane.YES_NO_OPTION);
+//		System.out.println(JOptionPane.YES_OPTION);
+//		temp t=new temp();
+//		t.setVisible(true);
+//		int i=JOptionPane.showConfirmDialog(t, "qq");
+//		System.out.println(i);
+//		
+//	}
+}

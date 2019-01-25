@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<entry key="profiler.settings.instrument.empty.methods">true</entry>
+<entry key="ProfilerCPUSettings_profile_runnables">true</entry>
+<entry key="profiler.settings.n.profiled.threads.limit">32</entry>
+<entry key="ProfilerCPUSettings_filter_type">2</entry>
+<entry key="profiler.settings.obj.alloc.stack.sampling.depth">-1</entry>
+<entry key="profiler.settings.instrument.method.invoke">true</entry>
+<entry key="profiler.settings.instr.scheme">1</entry>
+<entry key="ProfilerMemorySettings_track_every">10</entry>
+<entry key="ProfilerMemorySettings_mode">4</entry>
+<entry key="ProfilerCPUSettings_root_classes">czy.dao.**
+czy.model.**
+czy.view.**
+ggc.dao.**
+ggc.view.**
+global.dao.**
+global.model.**
+zxx.dao.**
+zzt.dao.**
+zzt.model.**
+zzt.view.**
+</entry>
+<entry key="ProfilerCPUSettings_filter_value">czy.dao.*,&#13;
+czy.model.*,&#13;
+czy.view.*,&#13;
+ggc.dao.*,&#13;
+ggc.view.*,&#13;
+global.dao.*,&#13;
+global.model.*,&#13;
+zxx.dao.*,&#13;
+zzt.dao.*,&#13;
+zzt.model.*,&#13;
+zzt.view.*</entry>
+<entry key="profiler.settings.istrument.getter.setter.methods">true</entry>
+<entry key="myeclipse.profiling.mode">0</entry>
+<entry key="ProfilerMemorySettings_stacktraces">-1</entry>
+<entry key="profiler.settings.sampling.interval">10</entry>
+<entry key="profiler.settings.cpu.profiling.type">0</entry>
+</properties>
